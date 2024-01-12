@@ -1,3 +1,45 @@
 .aqua {
     background-color: #2596be
 }
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .main-text {
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  .home-icons {
+    background-color: white;
+    width: auto;
+    height: 80px;
+    padding: 8px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  footer p {
+    text-align: center;
+    font-weight: 600;
+  }
