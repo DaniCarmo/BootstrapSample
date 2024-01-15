@@ -43,3 +43,19 @@
     text-align: center;
     font-weight: 600;
   }
+
+  .moveDown {
+	padding-top: 50px;
+}
+
+.flip {
+	transition: 1.5s ease;
+}
+
+.flip:hover {
+	transform: scaleX(1);
+}
+
+.myCSS {
+	background-color: yellow;
+}
