@@ -2,10 +2,10 @@
 var salary = 0.00;
 var products = 0;
 
-// Page Loading event listener
+/* Page Loading event listener
 document.addEventListener("DOMContentLoaded", function () {
 	alert("Page loading...");
-});
+}); */
 
 
 // Bootstrap card clicked event listener
