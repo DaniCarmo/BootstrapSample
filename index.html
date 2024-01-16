@@ -53,7 +53,7 @@
         <div class="image-container">
             <img src="images/shoreline.jpg" class="img-fluid" alt="landscape" aria-label="picture of the shoreline of a beach">
             <div class="text-box">
-                <p class="main-text">Visit Kerry <br> Experience "The Kingdom"</p>
+                <p class="main-text px-md-4">Visit Kerry <br> Experience "The Kingdom"</p>
             </div>
         </div>
     </div>
@@ -66,7 +66,24 @@
 
           <div class="input-group news-input">
             <input type="text" class="form-control" placeholder="Enter Email" />
-            <button class="btn btn-dark btn-lg" type="button">Submit</button>
+            <button class="btn btn-dark btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#subscribe">Submit</button>
+            <!-- Modal -->
+              <div class="modal fade" id="subscribe" tabindex="-1" aria-labelledby="subscribeto" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="text-success" id="subscribe">Success!</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-dark">You have now subscribed to our newsletter, we will send regular updates on events and tours across Kerry.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>

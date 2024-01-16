@@ -58,26 +58,87 @@
               </p>
             </div>
             <img
-              class="img-fluid w-50"
+              class="img-fluid w-50 p-3"
               src="images/restaurant.jpg"
               alt="kerry cliffs picture"
             />
           </div>
         </div>
       </section>
+      <div class="container pt-3">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Traditional Irish Food
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">County Kerry in Ireland is a haven for food enthusiasts, offering a diverse range of culinary experiences that showcase the region's rich cultural heritage and natural bounty. Visitors can savor hearty traditional dishes like Irish stew, boxty (potato pancakes), and colcannon (mashed potatoes with kale or cabbage). The globally acclaimed Bricín Restaurant in Killarney is a top choice for those seeking a genuine taste of Irish cuisine. With its charming ambiance and commitment to using locally sourced ingredients, Bricín offers an extensive menu featuring classic Irish dishes, providing an immersive culinary journey through the county's cultural roots.</div>
+            </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Seafood
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">One of the culinary highlights in Kerry is its exceptional seafood. With its proximity to the Atlantic Ocean, Kerry boasts a plethora of fresh catches, including delectable fish and shellfish. The Skellig Crab Claws, renowned for their succulence and flavor, are a local favorite. For an authentic seafood experience, the award-winning O'Neill's The Point Seafood Bar is highly recommended. This establishment is celebrated for its commitment to using locally sourced, sustainable seafood, ensuring a delightful taste of the region's marine treasures.</div>
+            </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Fine Dining
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">For those seeking a more refined dining experience, Kerry offers several fine dining establishments that elevate the gastronomic scene. One such gem is the Mulcahy's Restaurant in Kenmare, a Michelin-starred venue known for its innovative dishes and emphasis on local produce. The culinary artistry at Mulcahy's captures the essence of County Kerry's flavors while offering a sophisticated and memorable dining experience.</div>
+            </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Cafes
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">To unwind in a cozy atmosphere, Kerry's quaint cafes provide the perfect setting for indulging in delicious treats and locally brewed beverages. Nestled in the picturesque town of Dingle, Bean stands out as a popular choice, and is celebrated for its artisanal coffee and cozy atmosphere. This cafe prides itself on sourcing high-quality beans and creating expertly crafted espresso drinks. Visitors can enjoy a leisurely afternoon with a cup of their signature coffee and indulge in a selection of homemade pastries and cakes. </div>
+            </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Newsletter -->
-    <section class="aqua text-light pt-4">
-      <div class="container">
-        <div class="d-md-flex justify-content-between align-items-center">
-          <h3 class="mb-3 mb-md-0">Sign Up To Our Events Newsletter!</h3>
-
-          <div class="input-group news-input">
-            <input type="text" class="form-control" placeholder="Enter Email" />
-            <button class="btn btn-dark btn-lg" type="button">Submit</button>
+     <!-- Newsletter -->
+     <section class="aqua text-light pt-4">
+        <div class="container">
+          <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Sign Up To Our Events Newsletter!</h3>
+  
+            <div class="input-group news-input">
+              <input type="text" class="form-control" placeholder="Enter Email" />
+              <button class="btn btn-dark btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#subscribe">Submit</button>
+              <!-- Modal -->
+                <div class="modal fade" id="subscribe" tabindex="-1" aria-labelledby="subscribeto" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="text-success" id="subscribe">Success!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p class="text-dark">You have now subscribed to our newsletter, we will send regular updates on events and tours across Kerry.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
           </div>
         </div>
-      </div>
     </section>
 
     <script src="js/shop.js"></script>
