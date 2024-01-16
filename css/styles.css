@@ -6,6 +6,7 @@
 .image-container {
     position: relative;
     overflow: hidden;
+    max-height: 700px;
 }
   
 .image-container img {
