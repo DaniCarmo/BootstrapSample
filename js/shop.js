@@ -223,3 +223,8 @@ document.getElementById("card006").addEventListener("click", function()
 document.getElementById("btnCart").addEventListener("click", function () {
     updateCheckout();
 });
+// Form confirmation
+document.getElementById("btnSend").addEventListener("click", function()
+	{ 
+		alert("Thank you for your email\nWe will get back to you soon...");
+	}); 
