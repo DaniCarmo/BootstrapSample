@@ -6,15 +6,15 @@
 .image-container {
     position: relative;
     overflow: hidden;
-  }
+}
   
-  .image-container img {
+.image-container img {
     width: 100%;
     height: auto;
     display: block;
-  }
-  
-  .text-box {
+}
+
+.text-box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -24,29 +24,26 @@
     padding: 30px;
     text-align: center;
     border-radius: 5px;
-  }
+}
 
-  .main-text {
+.main-text {
     font-size: 60px;
     font-family: 'Bebas Neue', sans-serif;
-  }
+    text-align: center;
+}
 
-  .home-icons {
+.home-icons {
     background-color: white;
     width: auto;
     height: 80px;
     padding: 8px;
     border-radius: 50px;
     overflow: hidden;
-  }
+}
 
-  footer p {
+footer p {
     text-align: center;
     font-weight: 600;
-  }
-
-  .moveDown {
-	padding-top: 50px;
 }
 
 .flip {
@@ -59,4 +56,12 @@
 
 .myCSS {
 	background-color: yellow;
+}
+
+p {
+    text-align: justify;
+}
+
+.card-text {
+    text-align: start;
 }
