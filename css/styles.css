@@ -47,14 +47,6 @@ footer p {
     font-weight: 600;
 }
 
-.flip {
-	transition: 1.5s ease;
-}
-
-.flip:hover {
-	transform: scaleX(1);
-}
-
 .myCSS {
 	background-color: yellow;
 }
@@ -65,4 +57,19 @@ p {
 
 .card-text {
     text-align: start;
+}
+
+
+@media screen and (max-width: 576px) {
+    .input-group>.form-control {
+        width: 100%;
+    }
+    .text-md-start{
+        text-align: left!important;
+    }
+}
+@media screen and (max-width: 995px) {
+    .head {
+        padding-top: 5px;
+    }
 }
