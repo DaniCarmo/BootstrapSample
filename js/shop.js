@@ -1,71 +1,3 @@
-/*Initialize an empty 2D array for the cart
-let cart = [];
-let products = 0;  
-
-// Function to add items to the cart
-function addToCart(itemName, price) {
-    cart.push([itemName, price]);
-    updateCheckout();
-}
-
-function removeFromCartByItemName(itemName) {
-  for (let i = 0; i < cart.length; i++) {
-      if (cart[i][0] === itemName) {
-          cart.splice(i, 1);
-          break; // Assuming each item name is unique, so we can exit the loop once found
-      }
-  }
-  updateCheckout();
-}
-
-// Function to update the checkout alert
-function updateCheckout() {
-  checkout();
-}
-
-// Function to display items and total price in an alert
-function checkout() {
-  let itemsList = "Items in your cart:\n";
-  let totalPrice = 0;
-
-  // Iterate through the cart array
-  for (let i = 0; i < cart.length; i++) {
-    itemsList += `${cart[i][0]} - €${cart[i][1]}\n`;
-    totalPrice += cart[i][1];
-  }
-
-  // Display the alert with items and total price
-  alert(itemsList + `\nTotal Price: €${totalPrice.toFixed(2)}`);
-}
-
-// Bootstrap card clicked event listener
-var elements = document.getElementsByClassName("card003");
-
-for (var i = 0; i < elements.length; i++) {
-    elements[i].addEventListener("click", function () {
-        let itemName = this.dataset.itemName; // Assuming each card has a data attribute for item name
-        let itemPrice = parseFloat(this.dataset.itemPrice); // Assuming each card has a data attribute for item price
-
-        if (this.innerHTML == "Add to cart") {
-            this.innerHTML = "Remove from cart";
-            products = 1;
-            this.style.background = "pink";
-            addToCart(itemName, itemPrice);
-        } else {
-            this.innerHTML = "Add to cart";
-            products = 0;
-            this.style.background = "yellow";
-            removeFromCartByItemName(itemName);
-        }
-    });
-}
-
-// Bootstrap card clicked event listener
-document.getElementById("btnCart").addEventListener("click", function () {
-    alert("Thank you for your purchase!");
-    updateCheckout();
-});*/
-
 // Initialize an empty 2D array for the cart
 let cart = [];
 let products = 0;  
@@ -108,7 +40,7 @@ function checkout() {
 
 // Bootstrap card clicked event listener
 document.getElementById("card001").addEventListener("click", function()
-{     
+{  
     var element = document.getElementById("card001");
     if (element.innerHTML=="Add to cart")
     {
@@ -123,7 +55,6 @@ document.getElementById("card001").addEventListener("click", function()
         products = 0;
         element.style.background = "yellow";
         removeFromCartByItemName('Hidden Kerry');
-       
     }
 }); 
 document.getElementById("card002").addEventListener("click", function()
