@@ -13,9 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>GoKerry</title>
 </head>
-<body>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
     <!--navbar-->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
           <a href="index.html" class="navbar-brand"><img src="images/luck-lucky-icon.svg" alt="shamrock" aria-label="green shamrock gif" width="30" > GoKerry</a>
   
@@ -63,7 +64,7 @@
             </div>
             <div class="col-md-6 d-flex flex-column">
                 <img
-                class="img-fluid"
+                class="img-fluid rounded m-3"
                 src="images/small-boat.jpg"
                 alt="kerry cliffs picture"
                 />
@@ -77,14 +78,15 @@
         <div class="row">
             <div class="col-md-6 d-flex flex-column">
                 <img
-                class="img-fluid m-3 rounded"
+                class="img-fluid mx-3 rounded"
                 src="images/activities/roadtrip.webp"
                 alt="map and landmarks"
                 />
             </div>
             <div class="col-md-6 d-flex flex-column">
                 <p>One of the most popular ways to take in the breathtaking views is to drive the Ring of Kerry, many spend two to three days to complete so they can stay overnight in a couple of spots along the way and truly immerse themselves in the towns and villages along this beautiful route. However, it is totally possible to do this drive in one day. If you are eager to take it all in and only have one day to do it, we recommend starting as early as possible! <br><br>Here we have included a great map for showing the best route with the most popular landmarks along the way.</p>
-            </div>
+                <img src="images/activities/suv-car-icon.svg" alt="car icon" class="car-icon" />
+              </div>
         </div>
     </div>
 
@@ -92,10 +94,10 @@
     <div class="bg-secondary text-light">
         <div class="container p-5">
             <div class="row">
-                <div class="col-md-6 d-flex flex-column">
-                    <p>Kerry's extensive coastline provides ample opportunities for water-based activities. Kayaking and canoeing on the Lakes of Killarney offer a serene and scenic experience, while the Dingle Peninsula is a prime location for surfing, with Inch Beach being a favorite among surf enthusiasts. Boat tours to the Skellig Islands, a UNESCO World Heritage site, provide a unique opportunity to explore ancient monastic settlements and witness diverse marine life.<br><br>Golf enthusiasts can indulge in a round of golf at some of Ireland's most picturesque courses, such as Waterville Golf Links, set against the backdrop of the Atlantic Ocean. Horseback riding along the beaches of Rossbeigh or through the Killarney National Park provides a leisurely way to absorb the natural beauty of the surroundings. <br><br>Looking for some more inspo for your trip? Take a look on <a href="https://www.tripadvisor.ie/Attractions-g186610-Activities-County_Kerry.html" target="_blank" class="text-dark">TripAdvisor</a> to see what other visitors and Kerry natives have to say.</p>
+                <div class="col-md-6 d-flex flex-column px-4">
+                    <p>Kerry's extensive coastline provides ample opportunities for water-based activities. Kayaking and canoeing on the Lakes of Killarney offer a serene and scenic experience, while the Dingle Peninsula is a prime location for surfing, with Inch Beach being a favorite among surf enthusiasts. Boat tours to the Skellig Islands, a UNESCO World Heritage site, provide a unique opportunity to explore ancient monastic settlements and witness diverse marine life.<br><br>Golf enthusiasts can indulge in a round of golf at some of Ireland's most picturesque courses, such as Waterville Golf Links, set against the backdrop of the Atlantic Ocean. Horseback riding along the beaches of Rossbeigh or through the Killarney National Park provides a leisurely way to absorb the natural beauty of the surroundings. <br><br>Looking for some more inspo for your trip? Take a look on <strong><a href="https://www.tripadvisor.ie/Attractions-g186610-Activities-County_Kerry.html" target="_blank" class="text-dark">TripAdvisor</a></strong> to see what other visitors and Kerry natives have to say.</p>
                 </div>
-                <div class="col-md-6 d-flex flex-column">
+                <div class="col-md-6 d-flex flex-column px-4">
                     <div id="carouselExample" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -182,7 +184,7 @@
 
     <script src="js/shop.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
 <footer>
     <section class="p-3 aqua">

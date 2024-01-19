@@ -150,12 +150,25 @@ document.getElementById("card006").addEventListener("click", function()
         removeFromCartByItemName('Kerry Hamper');
     }
 }); 
+
 // Bootstrap card clicked event listener
 document.getElementById("btnCart").addEventListener("click", function () {
     updateCheckout();
 });
+
 // Form confirmation
 document.getElementById("btnSend").addEventListener("click", function()
 	{ 
 		alert("Thank you for your email\nWe will get back to you soon...");
-	}); 
+	});
+
+// Add a scroll event listener to handle car animation
+document.addEventListener('scroll', function () {
+    var carIcon = document.querySelector('.car-icon');
+    var rect = carIcon.getBoundingClientRect();
+
+    // Check if the car icon is in the viewport
+    if (rect.top < window.innerHeight && rect.bottom >= 0) {
+        carIcon.classList.add('slide-left');
+    }
+});
