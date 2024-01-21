@@ -47,16 +47,12 @@ footer p {
     font-weight: 600;
 }
 
-.car-icon {
-    height: 60px;
-}
-
-.car-icon.slide-left {
-    transform: translateX(-100%);
-}
-
 .myCSS {
 	background-color: yellow;
+}
+
+.car-icon {
+    height: 30px;
 }
 
 p {
