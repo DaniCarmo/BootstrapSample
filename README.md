@@ -38,6 +38,7 @@ The website should have a visually appealing and intuitive design that reflects 
 
 The aim is to launch the website before the peak tourist season; it is therefore required to be completed within the next three to four weeks.
 
+
 # User Stories
 
 ## As a User I want to:
@@ -68,17 +69,40 @@ The aim is to launch the website before the peak tourist season; it is therefore
 
 6. To enable users to interact with GoKerry, the site includes a newsletter banner on each page to encourage the user to sign up to hear more about events in Kerry, as well as a contact form on the dining page, where users can request more information and recommendations. 
 
+
+# Interactive Features
+
+GoKerry contains a number of interactive features, including:
+
+- Image carrousel
+
+- YouTube video
+
+- Accordian with dining info
+
+- Hover effects on links and buttons
+
+- Newsletter sign up banner - with modal to confirm successful sign up
+
+- Contact form
+
+- A shop page where users can add and remove items from their cart as well as checkout
+
+
 # Wireframes
 
 Link to view [wireframes](https://github.com/DaniCarmo/Go-Kerry/tree/main/wireframes)
+
 
 # Navigation
 
 Link to view [site navigation](https://github.com/DaniCarmo/Go-Kerry/tree/main/wireframes)
 
+
 # Performance
 
 Link to view [lighthouse performance reports](https://github.com/DaniCarmo/Go-Kerry/tree/main/performance-lighthouse)
+
 
 # Technology Used
 
