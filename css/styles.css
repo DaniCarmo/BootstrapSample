@@ -6,13 +6,9 @@
 .image-container {
     position: relative;
     overflow: hidden;
-    max-height: 700px;
-}
-  
-.image-container img {
-    width: 100%;
-    height: auto;
-    display: block;
+    background-image: url(https://github.com/DaniCarmo/Go-Kerry/blob/main/images/shoreline.jpg?raw=true);
+    background-size: cover;
+    height: 700px;
 }
 
 .text-box {
@@ -25,6 +21,7 @@
     padding: 30px;
     text-align: center;
     border-radius: 5px;
+    margin-top: 40px;
 }
 
 .main-text {
@@ -71,8 +68,13 @@ p {
         text-align: left!important;
     }
 }
+
 @media screen and (max-width: 995px) {
     .head {
         padding-top: 5px;
+    }
+    
+    .main-text {
+        font-size: 50px;
     }
 }
