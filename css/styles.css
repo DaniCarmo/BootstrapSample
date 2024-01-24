@@ -44,6 +44,10 @@ footer p {
     font-weight: 600;
 }
 
+.p-5 {
+    padding: 6rem 3rem !important;
+}
+
 .myCSS {
 	background-color: yellow;
 }
